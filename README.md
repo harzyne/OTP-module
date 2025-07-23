@@ -32,7 +32,6 @@ npx ts-node src/test.ts
  Up to 10 user attempts are allowed for each OTP.
  Testing is done using simulated input (MockInput) rather than real user I/O.
  OTPs are stored in-memory using Map, not persisted across sessions.
- The module does not handle concurrency or production-grade security concerns (e.g., rate limiting, replay protection).
  The test file uses the latestOtp property only for testing; this wouldn't exist in a secure real-world version.
 
 
